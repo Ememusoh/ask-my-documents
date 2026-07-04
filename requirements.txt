@@ -1,0 +1,18 @@
+# User interface
+streamlit
+
+# Document-reading support
+pypdf
+python-docx
+
+# Retrieval and API support
+numpy
+openai
+pinecone
+python-dotenv
+
+# Testing
+pytest
+
+# VS Code / Jupyter notebook kernel
+ipykernel

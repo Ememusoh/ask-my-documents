@@ -1,0 +1,17 @@
+# Virtual environments and Python-generated files
+.venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Private uploaded documents and generated RAG artifacts
+data/uploads/*
+!data/uploads/.gitkeep
+data/index/*
+!data/index/.gitkeep
+data/results/*
+!data/results/.gitkeep
+
+# Operating-system files
+.DS_Store

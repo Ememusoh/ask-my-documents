@@ -1,0 +1,7 @@
+question_id,question,expected_answer,expected_source,is_answerable
+q1,What is the aim of this project?,small configurable RAG system,paragraph 12,True
+q2,What file types can users upload?,PDF DOCX TXT,paragraph 6,True
+q3,What chunking strategies will the experiment compare?,fixed-size chunking paragraph-aware chunking,paragraph 34,True
+q4,What is outside the scope of this project?,user login production deployment model training advanced OCR scanned-document understanding complex table and diagram interpretation,paragraph 39,True
+q5,Who is the founder of America?,,,False
+q6,What is the student's favorite food?,,,False
