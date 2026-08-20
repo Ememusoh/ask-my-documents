@@ -105,6 +105,7 @@ def prepare_retrieved_chunk(
         "source_label": result.get("source_label", "Unknown source"),
         "chunking_strategy": result.get("chunking_strategy"),
         "chunk_number": result.get("chunk_number"),
+        "word_count": result.get("word_count"),
     }
 
 

@@ -13,5 +13,13 @@ data/index/*
 data/results/*
 !data/results/.gitkeep
 
+# Local-only helper/evaluation files not needed for submission
+scripts/
+tests/
+notebooks/
+
 # Operating-system files
 .DS_Store
+
+# Microsoft Office temporary lock files
+~$*

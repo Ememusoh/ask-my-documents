@@ -1,7 +1,31 @@
 question_id,question,expected_answer,expected_source,is_answerable
-q1,What is the aim of this project?,small configurable RAG system,paragraph 12,True
-q2,What file types can users upload?,PDF DOCX TXT,paragraph 6,True
-q3,What chunking strategies will the experiment compare?,fixed-size chunking paragraph-aware chunking,paragraph 34,True
-q4,What is outside the scope of this project?,user login production deployment model training advanced OCR scanned-document understanding complex table and diagram interpretation,paragraph 39,True
-q5,Who is the founder of America?,,,False
-q6,What is the student's favorite food?,,,False
+q01,What is the aim of the Ask My Documents project?,small configurable RAG system;evidence,"Project_Proposal.docx, paragraph 12",True
+q02,What file types can users upload to Ask My Documents?,PDF;DOCX;TXT,"Project_Proposal.docx, paragraph 6",True
+q03,What chunking strategies will the experiment compare?,fixed-size chunking;paragraph-aware chunking,"Project_Proposal.docx, paragraph 34",True
+q04,What are credit scores used to estimate?,pay back money;borrow,"CFPB_Understand_Your_Credit_Score.pdf, page 1",True
+q05,Why can a person have more than one credit score?,different products;different credit scoring formulas;different credit reporting sources,"CFPB_Understand_Your_Credit_Score.pdf, page 1",True
+q06,What personal information is used for on a credit report?,personal information;confirm;accounts,"CFPB_Understand_Your_Credit_Report.pdf, page 1",True
+q07,How often can someone request a free credit report from each nationwide credit reporting company?,once every 12 months;Equifax;Experian;TransUnion,"CFPB_Understand_Your_Credit_Report.pdf, page 3",True
+q08,What does the Fair Credit Reporting Act promote?,accuracy;fairness;privacy,"CFPB_FCRA_Summary_of_Rights.pdf, page 1",True
+q09,What must consumer reporting agencies do with inaccurate incomplete or unverifiable information?,correct;delete;inaccurate;incomplete;unverifiable;30 days,"CFPB_FCRA_Summary_of_Rights.pdf, page 2",True
+q10,What workplace right does the OSH Act give workers?,safe;healthful;working conditions,"OSHA_Workers_Rights.pdf, page 5",True
+q11,How must employers train workers about hazards?,language;vocabulary;understand,"OSHA_Workers_Rights.pdf, page 11",True
+q12,Can workers file a complaint with OSHA to request an on-site inspection?,file a complaint;on-site inspection,"OSHA_Workers_Rights.pdf, page 13",True
+q13,What does an OSHA citation inform an employer about after an inspection?,alleged violation;time period;penalties,"OSHA_Employer_Rights_Responsibilities_Inspection.pdf, page 6",True
+q14,How long must an employer post an OSHA citation?,three working days;until the violation is corrected,"OSHA_Employer_Rights_Responsibilities_Inspection.pdf, page 7",True
+q15,What can an employer request before deciding whether to contest an OSHA citation?,informal conference;OSHA area director;15-working-day,"OSHA_Employer_Rights_Responsibilities_Inspection.pdf, page 8",True
+q16,What are the four core functions of the NIST AI Risk Management Framework?,GOVERN;MAP;MEASURE;MANAGE,"NIST_AI_Risk_Management_Framework.pdf, page 25",True
+q17,What characteristics of trustworthy AI does the NIST AI RMF list?,valid and reliable;safe;secure and resilient;accountable and transparent;explainable and interpretable;privacy enhanced;fair,"NIST_AI_Risk_Management_Framework.pdf, page 17",True
+q18,What should happen if an AI system presents unacceptable negative risk levels?,development and deployment should cease;safe manner,"NIST_AI_Risk_Management_Framework.pdf, page 13",True
+q19,What guidance does FEMA CPG 101 provide?,fundamentals of planning;emergency operations plans,"FEMA_Emergency_Operations_Plans_CPG101.pdf, page 3",True
+q20,What are plans not meant to be followed as according to FEMA CPG 101?,not scripts;flexible;adaptable,"FEMA_Emergency_Operations_Plans_CPG101.pdf, page 4",True
+q21,What should an EOP base plan provide or identify?,overview;emergency management;policies;response organization;assigns tasks,"FEMA_Emergency_Operations_Plans_CPG101.pdf, page 75",True
+q22,What are the two main ways to get Medicare coverage?,Original Medicare;Medicare Advantage,"Medicare_and_You_2026.pdf, page 10",True
+q23,What two parts are included in Original Medicare?,Part A;Part B,"Medicare_and_You_2026.pdf, page 57",True
+q24,When is the Medicare Open Enrollment Period for joining switching or dropping a plan?,October 15;December 7;January 1,"Medicare_and_You_2026.pdf, page 80",True
+q25,Who is the founder of America?,,,False
+q26,What is Emem Usoh's favorite food?,,,False
+q27,What final grade did the student receive for the Ask My Documents project?,,,False
+q28,Which CFPB employee authored the credit score handout?,,,False
+q29,Which OSHA regional office is located in Toronto?,,,False
+q30,What GPU model did NIST use to train the AI Risk Management Framework?,,,False
