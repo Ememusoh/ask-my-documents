@@ -115,8 +115,13 @@ Pinecone namespaces, then run:
 PYTHONPATH=. .venv/bin/python -m rag.evaluator
 ```
 
-Evaluation outputs are written to `data/results/`, which is ignored by Git
-because the files are generated artifacts.
+Full evaluation outputs are written to `data/results/` and are ignored by Git
+because they are generated artifacts. A small summary file is included for
+review:
+
+```text
+data/results/evaluation_digest_simple.csv
+```
 
 ## Final Report And Presentation
 
@@ -140,6 +145,8 @@ data/evaluation/               Evaluation question set
 data/uploads/.gitkeep          Placeholder for local uploaded files
 data/index/.gitkeep            Placeholder for local index metadata
 data/results/.gitkeep          Placeholder for generated evaluation outputs
+data/results/evaluation_digest_simple.csv
+                               Summary evaluation digest
 reports/                       Final report and presentation
 requirements.txt               Python dependencies
 .env.example                   Environment variable template
