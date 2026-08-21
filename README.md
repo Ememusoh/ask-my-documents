@@ -9,15 +9,15 @@ The project focuses on transparency. Instead of returning only a generated
 answer, the app shows the retrieved chunks, similarity scores, source metadata,
 threshold filtering decisions, and citations used to support the response.
 
-## Prototype Screenshot
+## Prototype Preview
 
-![Ask My Documents Streamlit prototype showing retrieved sources, generated answer, and cited evidence](assets/prototype_screenshot.png)
+![Ask My Documents prototype demo showing retrieval, answer generation, and cited evidence](assets/prototype_demo.gif)
 
 ## Demo Video
 
 [![Watch the Ask My Documents demo](assets/prototype_screenshot.png)](media/ask_my_documents_demo.mp4)
 
-Click the screenshot above to watch a short demo of the prototype in action.
+Click the screenshot above to watch the full prototype demo video.
 
 ## Project Goal
 
@@ -150,7 +150,7 @@ the GitHub submission.
 
 ```text
 app.py                         Streamlit app entry point
-assets/                        README screenshot assets
+assets/                        README image and GIF assets
 media/                         Demo video
 rag/                           RAG pipeline modules
 data/evaluation/               Evaluation question set
