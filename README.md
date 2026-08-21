@@ -13,6 +13,12 @@ threshold filtering decisions, and citations used to support the response.
 
 ![Ask My Documents Streamlit prototype showing retrieved sources, generated answer, and cited evidence](assets/prototype_screenshot.png)
 
+## Demo Video
+
+[![Watch the Ask My Documents demo](assets/prototype_screenshot.png)](media/ask_my_documents_demo.mp4)
+
+Click the screenshot above to watch a short demo of the prototype in action.
+
 ## Project Goal
 
 The goal of this project is to design, implement, and evaluate a small
@@ -145,6 +151,7 @@ the GitHub submission.
 ```text
 app.py                         Streamlit app entry point
 assets/                        README screenshot assets
+media/                         Demo video
 rag/                           RAG pipeline modules
 data/evaluation/               Evaluation question set
 data/uploads/.gitkeep          Placeholder for local uploaded files
